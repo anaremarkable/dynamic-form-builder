@@ -23,7 +23,7 @@ const FormBuilder = () => {
         // Perform validation and form submission
         console.log('Form Data:', formData);
         setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 3000); // Hide the confirmation message after 3 seconds
+        setTimeout(() => setSubmitted(false), 3000);
     };
 
     return (
